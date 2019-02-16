@@ -7,6 +7,14 @@ public class JavaBasicRecap{
 		for(int i=0;i<args.length;i++){			
 		System.out.println("(index):"+i+":"+ args[i]);
 		}
+		System.out.println("How to convert string to integers:");		
+		int a,b,sum;
+		a=Integer.parseInt(args[0]);
+		b=Integer.parseInt(args[1]);
+		//java JavaBasicRecap0 1 4
+		// Sum 5
+		sum=a+b;
+		System.out.println("Sum of Arguments:"+sum);
 		
 		System.out.println("Reverse order of arguments");
 		for(int i=args.length-1;i>=0;i--){			
