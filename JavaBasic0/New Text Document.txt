@@ -1,0 +1,5 @@
+public clas JavaBasicRecap{
+	public static void main(String[] args){
+	
+	}
+}
