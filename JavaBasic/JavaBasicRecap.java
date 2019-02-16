@@ -1,5 +1,6 @@
 public class JavaBasicRecap{
 	public static void main(String[] args){
+		//using commandline
 		System.out.println("Hello World");
 		System.out.print("How many arguments?:"+args.length+"\n"+args[0]+args[1]+args[2]+"\n");
 		
